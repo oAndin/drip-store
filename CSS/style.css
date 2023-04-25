@@ -19,4 +19,48 @@ footer {
     background-color: #1F1F1F;
 }
 
+footer span.grupo1  {
+    width: 307px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    border: 1px solid #00ffff;
+}
+
+footer span .logo-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer span img {
+    width: 33px;
+    object-fit: contain;
+    /* mix-blend-mode: color-   burn; */
+    filter: invert( 1);
+    
+}
+
+
+
+footer span h1 {
+    width: 212px;
+    height: 44px;
+    color: #ffffff;
+}
+
+footer span p {
+    color: #ffffff;
+    text-align: justify;
+}
+footer span i {
+    color: #ffffff;
+}
+footer ul {
+    display:flex;
+    gap: 46px;
+    justify-content: center;
+}
 /* Aqui termina o Footer */
