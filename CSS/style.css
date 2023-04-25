@@ -30,6 +30,7 @@ footer span.grupo1  {
 
 footer span .logo-nome {
     display: flex;
+    height: 44px;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -60,7 +61,7 @@ footer span i {
 }
 footer ul {
     display:flex;
-    gap: 46px;
+    gap: 35.08px;
     justify-content: center;
 }
 /* Aqui termina o Footer */
