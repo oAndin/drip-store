@@ -24,11 +24,11 @@ footer {
 
     gap: 30px;
     background-color: #1F1F1F;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Primeiro Span do Footer  --------------------------------------------------------- */
 footer .grupo1 {
-    font-family: 'Inter', sans-serif;
     width: 307px;
     height: 78px;
 }
@@ -161,7 +161,9 @@ footer span.categorias ul {
 
 /* Aqui finaliza a terceira caixa de Span categorias ----------------------------------------- */
 /* Aqui inicia a quarta caixa de Span Contatos ----------------------------------------- */
-
+span.contatos {
+    border: 1px solid #ff0000;
+}
 
 
 /* Aqui finaliza a quarta caixa de Span Contatos ----------------------------------------- */
