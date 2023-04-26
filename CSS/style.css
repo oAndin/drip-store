@@ -29,6 +29,8 @@ footer {
 /* Primeiro Span do Footer  --------------------------------------------------------- */
 footer .grupo1 {
     font-family: 'Inter', sans-serif;
+    width: 307px;
+    height: 78px;
 }
 
 footer span.grupo1 {
@@ -93,8 +95,8 @@ footer span.grupo1 ul {
 /* Inicio do segundo Span categorias do footer -------------------------------------------  */
 
 span.informacao {
-    /* width: 135px;
-    height: 278px; */
+    width: 135px;
+    height: 278px;
     display: flex;
     flex-direction: column;
     border: 1px solid #d9ff00;
@@ -107,7 +109,7 @@ footer span.informacao ul {
     flex-direction: column;
 }
 
-footer .informacao h1 {
+footer .informacao h3 {
     width: 99px;
     height: 22px;
     font-style: normal;
@@ -125,5 +127,43 @@ footer ul a {
     color: #ffffff;
 }
 
-/* Fim do segundo Span categorias do footer ------------------------------------------------- */
-/* Aqui termina o Footer ---------------------------------------------------------------------*/
+/* Fim do segundo Span informações do footer ------------------------------------------------- */
+
+/* Aqui inicia a terceira caixa de Span categorias ------------------------------------------  */
+
+footer span.categorias {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00ff22;
+}
+
+footer span.categorias h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 96px;
+    height: 22px;
+    color: #ffffff;
+}
+
+footer span.categorias ul {
+    width: 96px;
+    height: 190px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+
+/* Aqui finaliza a terceira caixa de Span categorias ----------------------------------------- */
+/* Aqui inicia a quarta caixa de Span Contatos ----------------------------------------- */
+
+
+
+/* Aqui finaliza a quarta caixa de Span Contatos ----------------------------------------- */
+
+/* Aqui termina o Footer ----------------------------------------------------------------------*/
