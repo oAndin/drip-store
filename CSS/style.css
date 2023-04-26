@@ -1,0 +1,129 @@
+body {
+    width: 1440px;
+    height: 3744px;
+}
+
+/* Aqui começa as o header  ---------------------------------------------------------*/
+header {
+    width: 100%;
+    height: 192px;
+    background-color: #000000;
+}
+
+/* Aqui termina o header   ---------------------------------------------------------*/
+
+footer .conteudo {
+    display: flex;
+}
+
+/* Aqui começa o Footer  --------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    height: 454px;
+
+    gap: 30px;
+    background-color: #1F1F1F;
+}
+
+/* Primeiro Span do Footer  --------------------------------------------------------- */
+footer .grupo1 {
+    font-family: 'Inter', sans-serif;
+}
+
+footer span.grupo1 {
+    width: 307px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    border: 1px solid #00ffff;
+}
+
+footer span .logo-nome {
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer span.grupo1 img {
+    width: 33px;
+    object-fit: contain;
+    /* mix-blend-mode: color-   burn; */
+    filter: invert(1);
+
+}
+
+footer span.grupo1 h1 {
+    width: 212px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+
+footer span.grupo1 p {
+    color: #ffffff;
+    width: 307px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+}
+
+footer span.grupo1 i {
+    width: 11px;
+    height: 21px;
+    color: #ffffff;
+}
+
+footer span.grupo1 ul {
+    display: flex;
+    gap: 35.08px;
+    justify-content: center;
+}
+
+/* Fim do primeiro span do footer --------------------------------------------------------- */
+
+/* Inicio do segundo Span categorias do footer -------------------------------------------  */
+
+span.informacao {
+    /* width: 135px;
+    height: 278px; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9ff00;
+}
+
+footer span.informacao ul {
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+footer .informacao h1 {
+    width: 99px;
+    height: 22px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+footer ul a {
+    width: 135px;
+    height: 228px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+/* Fim do segundo Span categorias do footer ------------------------------------------------- */
+/* Aqui termina o Footer ---------------------------------------------------------------------*/
