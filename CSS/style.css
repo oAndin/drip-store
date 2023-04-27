@@ -103,20 +103,22 @@ footer span.grupo1 ul {
 
 /* Inicio do segundo Span categorias do footer -------------------------------------------  */
 
-span.informacao {
+footer span.informacao {
     width: 135px;
     height: 278px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border: 1px solid #66ff00;
     
 }
 
 footer span.informacao ul {
-    /* width: 100%;
-    height: 100%; */
+    height: 228px ;
+    width: 135px;
     display: flex;
     flex-direction: column;
+    border: 1px solid #2600ff;
 }
 
 footer .informacao h3 {
@@ -126,11 +128,10 @@ footer .informacao h3 {
     font-size: 18px;
     line-height: 22px;
     color: #ffffff;
+    border: 1px solid #fbff00;
 }
 
-footer ul a {
-    width: 135px;
-    height: 228px;
+footer .informacao ul a {
     font-weight: 400;
     font-size: 16px;
     line-height: 38px;
@@ -157,6 +158,7 @@ footer span.categorias h3 {
     width: 96px;
     height: 22px;
     color: #ffffff;
+    
 }
 
 footer span.categorias ul {
@@ -169,6 +171,12 @@ footer span.categorias ul {
     line-height: 38px;
 }
 
+footer .categorias ul a {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 38px;
+    color: #ffffff;
+}
 
 /* Aqui finaliza a terceira caixa de Span categorias ----------------------------------------- */
 /* Aqui inicia a quarta caixa de Span Contatos ----------------------------------------- */
