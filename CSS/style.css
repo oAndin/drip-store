@@ -105,8 +105,8 @@ footer span .logo-nome {
 footer span.grupo1 img {
     width: 33px;
     object-fit: contain;
-    /* mix-blend-mode: color-   burn; */
-    filter: invert(1);
+    
+    filter: invert(-1);
 
 }
 
