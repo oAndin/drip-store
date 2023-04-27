@@ -14,6 +14,11 @@ header {
 
 footer .conteudo {
     display: flex;
+    /* padding-top: 72px;
+    padding-right: 94px;
+    padding-left: 100px;
+    padding-bottom: 104px; */
+    
 }
 
 /* Aqui começa o Footer  --------------------------------------------------------- */
@@ -21,7 +26,9 @@ footer .conteudo {
 footer {
     width: 100%;
     height: 454px;
-
+    position: relative;
+    bottom: 0;
+    left: 0;
     gap: 30px;
     background-color: #1F1F1F;
     font-family: 'Inter', sans-serif;
@@ -162,10 +169,25 @@ footer span.categorias ul {
 /* Aqui finaliza a terceira caixa de Span categorias ----------------------------------------- */
 /* Aqui inicia a quarta caixa de Span Contatos ----------------------------------------- */
 span.contatos {
+    color: #ffffff;
+    width: 233px;
+    height: 168px;
     border: 1px solid #ff0000;
 }
 
 
 /* Aqui finaliza a quarta caixa de Span Contatos ----------------------------------------- */
+
+hr{
+    height: 10px;
+    width: 1240px;
+    color: #eeff00; 
+}
+
+/* Aqui é os direitos autorais */
+
+h6 {
+    color: #ffffff;
+}
 
 /* Aqui termina o Footer ----------------------------------------------------------------------*/
