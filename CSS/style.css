@@ -14,6 +14,9 @@ header {
 
 footer .conteudo {
     display: flex;
+    border: 1px solid #ff00ff;
+    justify-content: space-evenly;
+    padding-top: 72px;
     /* padding-top: 72px;
     padding-right: 94px;
     padding-left: 100px;
@@ -35,16 +38,14 @@ footer {
 }
 
 /* Primeiro Span do Footer  --------------------------------------------------------- */
-footer .grupo1 {
-    width: 307px;
-    height: 78px;
-}
+
 
 footer span.grupo1 {
     width: 307px;
+    height: 218px;
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    justify-content: space-evenly;
     border: 1px solid #00ffff;
 }
 
@@ -106,6 +107,7 @@ span.informacao {
     height: 278px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     border: 1px solid #d9ff00;
 }
 
@@ -141,11 +143,12 @@ footer ul a {
 footer span.categorias {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     border: 1px solid #00ff22;
 }
 
 footer span.categorias h3 {
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -168,10 +171,12 @@ footer span.categorias ul {
 
 /* Aqui finaliza a terceira caixa de Span categorias ----------------------------------------- */
 /* Aqui inicia a quarta caixa de Span Contatos ----------------------------------------- */
-span.contatos {
+footer span.contatos {
     color: #ffffff;
     width: 233px;
     height: 168px;
+    
+    
     border: 1px solid #ff0000;
 }
 
@@ -188,6 +193,8 @@ hr{
 
 h6 {
     color: #ffffff;
+    width: 100%;
+    text-align: center;
 }
 
 /* Aqui termina o Footer ----------------------------------------------------------------------*/
