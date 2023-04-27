@@ -17,6 +17,7 @@ header {
     flex-direction: column;
     background-color: #ffffff;
     user-select: none;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Aqui é inicio o NAV do HEADER ---------------------------------------------------------- */
@@ -32,6 +33,9 @@ header nav ul {
 
 header span.parte1 {
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 34px;
+    padding-left: 104px;
 }
 
 header input {
@@ -48,6 +52,14 @@ header span .logo-nome {
     display: flex;
     width: 253px;
     border: 1px solid #66ff00;
+}
+
+header span button {
+    width: 114px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #C92071;
 }
 
 /* Aqui é fim da classe do HEADER ------------------------------------------------------------- */
