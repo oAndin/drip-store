@@ -1,0 +1,194 @@
+/* Aqui começa o Footer  --------------------------------------------------------- */
+footer {
+    width: 100%;
+    height: 454px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #1F1F1F;
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+}
+
+footer .conteudo{
+    display: flex;
+    margin: 72px 94px 0 100px;
+    justify-content: space-between;
+}
+/* Primeiro Span do Footer  --------------------------------------------------------- */
+
+
+footer span.grupo1 {
+    width: 307px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+footer span .logo-nome {
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer span.grupo1 img {
+    width: 33px;
+    object-fit: contain;
+
+    filter: invert(-1);
+
+}
+
+footer span.grupo1 h1 {
+    width: 212px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+
+footer span.grupo1 p {
+    color: #ffffff;
+    width: 307px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+}
+
+footer span.grupo1 i {
+    width: 11px;
+    height: 21px;
+    color: #ffffff;
+}
+
+footer span.grupo1 ul {
+    display: flex;
+    gap: 35.08px;
+    justify-content: center;
+}
+
+/* Fim do primeiro span do footer --------------------------------------------------------- */
+
+/* Inicio do segundo Span categorias do footer -------------------------------------------  */
+
+footer span.informacao {
+    width: 135px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+footer span.informacao ul {
+    height: 228px;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+footer .informacao h3 {
+    width: 99px;
+    height: 22px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+
+}
+
+footer .informacao ul a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+/* Fim do segundo Span informações do footer ------------------------------------------------- */
+
+/* Aqui inicia a terceira caixa de Span categorias ------------------------------------------  */
+
+footer span.categorias {
+
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-between;
+
+}
+
+footer span.categorias h3 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 96px;
+    height: 22px;
+    color: #ffffff;
+
+}
+
+footer span.categorias ul {
+    width: 96px;
+    height: 190px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+footer .categorias ul a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+/* Aqui finaliza a terceira caixa de Span categorias ----------------------------------------- */
+/* Aqui inicia a quarta caixa de Span Contatos ----------------------------------------- */
+footer span.contatos {
+    color: #ffffff;
+    width: 233px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Aqui finaliza a quarta caixa de Span Contatos ----------------------------------------- */
+
+.linha {
+    border-top: 1px solid #ffffff;
+    width: 1240px;
+    opacity: 30%;
+    display: flex;
+
+    align-self: center;
+}
+
+/* Aqui é os direitos autorais */
+
+h6 {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+/* Aqui termina o Footer ----------------------------------------------------------------------*/

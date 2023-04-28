@@ -1,0 +1,66 @@
+/* Aqui começa o article do banner ----------------------------------------------------------*/
+
+article.banner {
+    width: 1440px;
+    height: 681px;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+article.banner .conteudo {
+    width: 1303px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 78px;
+    padding-left: 100px;
+    border: 1px solid #111111;
+}
+
+article.banner .conteudo button {
+    width: 220px;
+    height: 48px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #C92071;
+}
+
+article.banner h3 {
+    width: 280px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #F6AA1C;
+}
+
+article.banner h1 {
+    font-family: 'Inter';
+    width: 516px;
+    height: 132px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    border: 1px solid #111111;
+}
+
+article.banner p {
+    width: 495px;
+    height: 68px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #474747
+
+}
+
+/* Aqui termina o article do banner ----------------------------------------------------------*/
