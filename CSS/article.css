@@ -60,7 +60,17 @@ article.banner p {
     line-height: 34px;
     letter-spacing: 0.75px;
     color: #474747
+}
 
+article.banner .botoes {
+    width: 100%;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    border: #F6AA1C;
 }
 
 /* Aqui termina o article do banner ----------------------------------------------------------*/
