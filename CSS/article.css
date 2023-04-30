@@ -83,6 +83,7 @@ article.banner .carrossel-botoes {
 article.banner .carrossel-botoes .botao {
     width: 12px;
     height: 12px;
+    cursor: pointer;  
     background-color: #CCCCCC;
     border-radius: 50%;
 }

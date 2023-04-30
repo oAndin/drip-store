@@ -1,0 +1,59 @@
+section {
+    width: 1440px;
+    height: 681px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5   ;
+    font-family: 'Inter';
+}
+
+section h1 {
+    width: 283px;
+    height: 38px;
+    margin-left: 100px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+section h1.meio {
+    margin-top: 100px;
+    margin-left: 579px;
+}
+
+section .caixa {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+section .caixa span {
+    width: 405px;
+    height: 251px;
+    border-radius: 8px;
+    background-color: #D8E3F2;
+}
+
+section .circulos-carrossel {
+    width: 712px;
+    height: 138px;
+    margin-top: 20px;
+    margin-left: 364px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+section .circulos-carrossel .circulo {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%  ;
+    background-color: #FFFFFF;
+
+}
