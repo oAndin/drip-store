@@ -3,7 +3,7 @@ section {
     height: 681px;
     display: flex;
     flex-direction: column;
-    background-color: #E5E5E5   ;
+    background-color: #E5E5E5;
     font-family: 'Inter';
 }
 
@@ -26,18 +26,85 @@ section h1.meio {
     margin-left: 579px;
 }
 
-section .caixa {
+/* Aqui começa o carrossel das caixas do section --------------------------------------------------------------- */
+
+section .caixas-carrossel {
     display: flex;
     justify-content: center;
     gap: 12px;
 }
 
-section .caixa span {
+section .caixas-carrossel span.caixa {
     width: 405px;
     height: 251px;
+    display: flex;
     border-radius: 8px;
     background-color: #D8E3F2;
+    /* border: 1px solid #ff02b7; */
 }
+
+
+/* Aqui termina o carrossel das caixas do section --------------------------------------------------------------- */
+
+section .caixas-carrossel span.caixa .conteudo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffd500;
+}
+
+section .caixas-carrossel span.caixa .conteudo .desconto {
+    width: 96px;
+    height: 32px;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7FF86;
+    border: 1px solid #111111;
+}
+
+section .caixas-carrossel span.caixa .conteudo .desconto p {
+    width: 66px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+section .caixas-carrossel span.caixa .conteudo h1 {
+    width: 172px;
+    height: 72px;
+    margin-left: 30px;
+    border: 1px solid #2200ff;
+}
+
+section .caixas-carrossel span.caixa .conteudo button {
+    width: 153px;
+    height: 48px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    color: #C92071;
+    background-color: #F5F5F5;
+}
+
+section .caixas-carrossel span.caixa .imagem {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #111111;
+}
+
+
+/* Aqui começa o carrossel das circulos do section --------------------------------------------------------------- */
+
 
 section .circulos-carrossel {
     width: 712px;
@@ -53,7 +120,8 @@ section .circulos-carrossel {
 section .circulos-carrossel .circulo {
     width: 104px;
     height: 104px;
-    border-radius: 50%  ;
+    border-radius: 50%;
     background-color: #FFFFFF;
-
 }
+
+/* Aqui termina o carrossel das circulos do section --------------------------------------------------------------- */
