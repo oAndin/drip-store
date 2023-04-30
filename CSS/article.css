@@ -1,21 +1,25 @@
 /* Aqui começa o article do banner ----------------------------------------------------------*/
 
 article.banner {
-    width: 1440px;
+    width: 100%;
     height: 681px;
-    display: flex;
+
     background-color: #F5F5F5;
 }
 
+article.banner .imagem-conteudo {
+    display: flex;
+}
+
 article.banner .conteudo {
-    width: 1303px;
+    width: 624px;
     height: 398px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-top: 78px;
     padding-left: 100px;
-    border: 1px solid #111111;
+    
 }
 
 article.banner .conteudo button {
@@ -24,9 +28,10 @@ article.banner .conteudo button {
     border-radius: 8px;
     color: #ffffff;
     background-color: #C92071;
+    cursor: pointer;
 }
 
-article.banner h3 {
+article.banner .conteudo h3 {
     width: 280px;
     height: 24px;
     font-family: 'Inter';
@@ -38,19 +43,19 @@ article.banner h3 {
     color: #F6AA1C;
 }
 
-article.banner h1 {
+article.banner .conteudo h1 {
     font-family: 'Inter';
-    width: 516px;
+    width: 517px;
     height: 132px;
     font-style: normal;
     font-weight: 800;
     font-size: 64px;
     line-height: 66px;
     letter-spacing: 1px;
-    border: 1px solid #111111;
+    
 }
 
-article.banner p {
+article.banner .conteudo p {
     width: 495px;
     height: 68px;
     font-family: 'Inter';
@@ -62,15 +67,32 @@ article.banner p {
     color: #474747
 }
 
-article.banner .botoes {
-    width: 100%;
-    height: 12px;
-    border-radius: 50%;
-    border: 2px solid #ff0000;
-    background-color: #111111;
+article.banner .imagem-conteudo img {
+    width: 50%;
+    object-fit: contain;
+    
+}
+
+article.banner .carrossel-botoes {
     display: flex;
     justify-content: center;
-    border: #F6AA1C;
+    gap: 10px;
+    
 }
+
+article.banner .carrossel-botoes .botao {
+    width: 12px;
+    height: 12px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+}
+article.banner .carrossel-botoes .botao.selecionado {
+    background-color: #C92071;
+}
+
+
+/* Daqui para baixo é Deus e a biblia de baixo do braço ------------------------------------- */
+
+
 
 /* Aqui termina o article do banner ----------------------------------------------------------*/
