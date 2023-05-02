@@ -1,0 +1,42 @@
+#destaque {
+    width: 1440px;
+    height: 553px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+#destaque .imagem {
+    width: 573px;
+    height: 330px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 52px;
+    margin-top: 115px;
+    margin-bottom: 108px;
+    border: 1px solid #111;
+}
+
+#destaque .imagem span {
+    width: 466px;
+    height: 466px;
+    border-radius: 50%;
+    background: linear-gradient(#00000040, #11111100);
+
+}
+
+#destaque .imagem img {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#destaque .conteudo {
+    width: 589px;
+    height: 341px;
+    margin-top: 106px;
+    border: 1px solid #111111;
+}
