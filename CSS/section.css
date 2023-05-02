@@ -1,6 +1,6 @@
 section {
     width: 1440px;
-    height: 681px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #E5E5E5;
@@ -133,13 +133,29 @@ section .circulos-carrossel {
     gap: 48px;
     justify-content: center;
     align-items: center;
+    border: 1px solid #111111;
 }
 
 section .circulos-carrossel .circulo {
     width: 104px;
     height: 104px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFFFF;
+}
+
+section .circulos-carrossel .icone-circulo {
+    /* width: 64px; */
+    height: 64px;
+}
+
+section .caixas-de-textos {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    border: 1px solid #111111;
 }
 
 /* Aqui termina o carrossel das circulos do section --------------------------------------------------------------- */
