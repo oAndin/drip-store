@@ -1,42 +1,85 @@
 #destaque {
-    width: 1440px;
-    height: 553px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #ffffff;
+  width: 1440px;
+  height: 553px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  font-family: "Inter";
 }
 
 #destaque .imagem {
-    width: 573px;
-    height: 330px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-left: 52px;
-    margin-top: 115px;
-    margin-bottom: 108px;
-    border: 1px solid #111;
+  width: 573px;
+  height: 330px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 52px;
+  margin-top: 115px;
+  margin-bottom: 108px;
+  /* border: 1px solid #111; */
 }
 
 #destaque .imagem span {
-    width: 466px;
-    height: 466px;
-    border-radius: 50%;
-    background: linear-gradient(#00000040, #11111100);
-
+  width: 466px;
+  height: 466px;
+  border-radius: 50%;
+  background: linear-gradient(#00000010, #11111100);
 }
 
 #destaque .imagem img {
-    margin-left: 0;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
+  margin-top: 50px;
+  margin-left: -52px;
+  display: flex;
 }
 
 #destaque .conteudo {
-    width: 589px;
-    height: 341px;
-    margin-top: 106px;
-    border: 1px solid #111111;
+  width: 589px;
+  height: 341px;
+  margin-top: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#destaque .conteudo h3 {
+  width: 130px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: #c92071;
+}
+
+#destaque .conteudo h1 {
+  width: 514px;
+  height: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #474747;
+}
+
+#destaque .conteudo p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #474747;
+}
+
+#destaque .conteudo button {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+
+  color: #ffffff;
+  background-color: #c92071;
 }
