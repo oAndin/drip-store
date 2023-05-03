@@ -1,11 +1,11 @@
 section.produtos-alta {
     width: 1440px;
-    height: 700px;
+    height: 100%;
     background-color: #E5E5E5;
     border: 1px solid #ff9900;
 }
 
-section.produtos-alta h1.titulo {
+section.produtos-alta h1 {
     width: 210px;
     height: 38px;
     font-family: 'Inter';
@@ -18,18 +18,23 @@ section.produtos-alta h1.titulo {
 }
 
 /* Colocar o grid aqui */
-/* section.produtos-alta .produtos-alta {
+section.produtos-alta .produtos-alta {
     display: grid;
-    justify-content: center;
-    align-items: center;
-} */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+    margin-left: 100px;
+    width: 1240px;
+    height: 918px;
+}
 
 section.produtos-alta .produtos-alta .caixa-item {
     width: 292px;
     height: 439px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #111111;
+    /* border: 1px solid #111111; */
 }
 
 section.produtos-alta .produtos-alta span.desconto {
@@ -57,6 +62,28 @@ section.produtos-alta .produtos-alta .caixa-item .caixa-imagem {
     box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
     border-radius: 4px;
     background-color: #ffffff;
+}
+
+section.produtos-alta div.produtos-alta span.caixa-item p.nome {
+    margin-top: 18px;
+    width: 35px;
+    height: 24px;
+}
+
+section.produtos-alta div.produtos-alta span.caixa-item h2 {
+    width: 283px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+section.produtos-alta div.produtos-alta span.caixa-item h2.preco-cortado {
+    text-decoration: line-through;
+    color: #1F1F1F;
 }
 
 section.produtos-alta .produtos-alta .caixa-item .caixa-imagem img {
