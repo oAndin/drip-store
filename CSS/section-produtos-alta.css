@@ -1,6 +1,64 @@
 section.produtos-alta {
     width: 1440px;
     height: 700px;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
     border: 1px solid #ff9900;
+}
+
+section.produtos-alta h1.titulo {
+    width: 210px;
+    height: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+/* Colocar o grid aqui */
+/* section.produtos-alta .produtos-alta {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
+
+section.produtos-alta .produtos-alta .caixa-item {
+    width: 292px;
+    height: 439px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #111111;
+}
+
+section.produtos-alta .produtos-alta span.desconto {
+    width: 96px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    z-index: 1;
+    background-color: #E7FF86;
+}
+
+section.produtos-alta .produtos-alta span.desconto p {
+    /* width: 66px; */
+    height: 22px;
+    margin: 0;
+}
+
+section.produtos-alta .produtos-alta .caixa-item .caixa-imagem {
+    width: 292px;
+    height: 321px;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+section.produtos-alta .produtos-alta .caixa-item .caixa-imagem img {
+    margin-left: -35px;
 }
