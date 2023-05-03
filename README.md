@@ -4,9 +4,12 @@
 
 ### Projeto em grupo, 4 integrantes da FS19.
 
-### Header ainda em construção, fase inicial.
+### Header 95%, faltando o conserto da notificação de itens no carrinho, será testado um "::before" na resolução.
 
-### Planejamento do section em andamento, é necessário a divisão de tarefas na próxima reunião.
+### Article para melhores ofertas do site em destaque.
 
-### Footer com HTML completo, todos os elementos criados, a estilização está em 80%, é necessário uma mudança na posição dos titulos dos NAVs, mas já está em andamento.
+### Três sections. A primeira para coleções em destaque, a segunda para produtos em alta e a terceira para um produto em oferta.
+
+### Footer completo.
+
 Fé em deus e nas crianças da favela
