@@ -1,14 +1,13 @@
 section.produtos-alta {
     width: 1440px;
-    height: 100%;
+    height: 1100px;
     background-color: #E5E5E5;
-    border: 1px solid #ff9900;
+    font-family: 'Inter';
 }
 
 section.produtos-alta h1 {
     width: 210px;
     height: 38px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -18,7 +17,7 @@ section.produtos-alta h1 {
 }
 
 /* Colocar o grid aqui */
-section.produtos-alta .produtos-alta {
+section.produtos-alta .produtos-alta a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
