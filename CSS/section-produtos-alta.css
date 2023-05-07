@@ -2,7 +2,7 @@ section.produtos-alta {
     width: 1440px;
     height: 1100px;
     background-color: #E5E5E5;
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section.produtos-alta h1 {
@@ -16,7 +16,6 @@ section.produtos-alta h1 {
     color: #474747;
 }
 
-/* Colocar o grid aqui */
 section.produtos-alta .produtos-alta a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -24,6 +23,7 @@ section.produtos-alta .produtos-alta a {
     grid-column-gap: 24px;
     grid-row-gap: 40px;
     margin-left: 100px;
+    color: #1F1F1F;
     width: 1240px;
     height: 918px;
 }
@@ -80,8 +80,27 @@ section.produtos-alta div.produtos-alta span.caixa-item h2 {
     color: #474747;
 }
 
+section.produtos-alta div.produtos-alta span.caixa-item .preco {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.produtos-alta div.produtos-alta span.caixa-item .preco .item2 {
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F1F1F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
 section.produtos-alta div.produtos-alta span.caixa-item h2.preco-cortado {
+    width: 63px;
+    height: 38px;
     text-decoration: line-through;
+    margin-right: 8px;
     color: #1F1F1F;
 }
 
