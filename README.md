@@ -4,12 +4,4 @@
 
 ### Projeto em grupo, 4 integrantes da FS19.
 
-### Header 95%, faltando o conserto da notificação de itens no carrinho, será testado um "::before" na resolução.
-
-### Article para melhores ofertas do site em destaque.
-
-### Três sections. A primeira para coleções em destaque, a segunda para produtos em alta e a terceira para um produto em oferta.
-
-### Footer completo.
-
 Fé em deus e nas crianças da favela
